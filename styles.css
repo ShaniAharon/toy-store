@@ -59,6 +59,7 @@ nav ul li a:hover {
 }
 
 main {
+  margin-top: 1rem;
   text-align: center;
   flex: 1 0 auto; /* Allows the main content to grow and shrink as needed, pushing the footer down */
   padding-top: 60px; /* Adjust top padding to accommodate the fixed header */
@@ -253,6 +254,14 @@ footer {
   nav ul li {
     float: none;
     width: 100%;
+    padding: 2px;
+  }
+  .header-content a {
+    padding: 2px;
+  }
+  .header-content {
+    font-size: x-small;
+    padding: 2px;
   }
 }
 
@@ -268,16 +277,5 @@ footer {
 
   .image-gallery {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Additional styles for responsiveness and aesthetics */
-@media (max-width: 600px) {
-  .about-us {
-    background: linear-gradient(
-      to bottom,
-      #ff9966,
-      #ff5e62
-    ); /* Vertical gradient for smaller screens */
   }
 }
