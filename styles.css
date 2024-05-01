@@ -82,6 +82,7 @@ main {
 .gallery-item img {
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .inlarge-img {
@@ -94,6 +95,7 @@ main {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
 }
 
 .toy-description {
